@@ -6,6 +6,8 @@
 		p "fizz"
 	elsif (i+1)%5 == 0 #5の倍数のとき
 		p "buzz"
+	elsif (i+1)%7 == 0 #7の倍数のとき
+		p "git"
 	else
 		p (i+1)
 	end
